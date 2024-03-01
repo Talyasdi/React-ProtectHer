@@ -1,5 +1,4 @@
-# React
-# ProtectHer - Safer Surfing for Girls
+# React - ProtectHer - Safer Surfing for Girls
 
 Welcome to ProtectHer, an application dedicated to empowering safer online experiences for girls. This README provides information on how to run the application locally and install the required dependencies.
 
