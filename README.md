@@ -9,7 +9,7 @@ Before running the application, make sure you have Node.js and npm installed on 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ProtectHer.git
+   git clone https://github.com/Talyasdi/ProtectHer.git
    ```
 
 2. Navigate to the project directory:
