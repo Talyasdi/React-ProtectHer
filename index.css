@@ -1,0 +1,207 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: "Sans-Serif", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar styles */
+/* General navbar styles */
+.navbar {
+  background-color: #f5f5f5; /* Lighter background for contrast */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e5e5e5; /* Lighter border */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Brand section */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px; /* Adjust as needed */
+  margin-right: 15px;
+}
+
+.navbar div {
+  font-weight: bold; /* Emphasize brand name */
+  color: #6a0dad;
+  font-size: 40px;
+}
+
+/* Links section */
+.navbar .links {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 20px;
+
+}
+
+.navbar a {
+  font-weight: 500; /* Make links bolder */
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+
+/* Highlight the primary link */
+.navbar a:first-of-type {
+  color: #333; /* Make the first link stand out */
+}
+
+/* Style the Chatbot button */
+.navbar a.chatbot-button {
+  background-color: #9635f1;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px; /* Consistent padding */
+  margin-left: 15px; /* Add spacing between links */
+}
+
+/* Content styles */
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  color: #333;
+  font-size: 22px;
+}
+
+.content p {
+  margin-bottom: 20px;
+    color: #2b3a43;
+
+}
+
+
+/* Task previews / list styles */
+.task-preview {
+  padding: 15px 20px;
+  margin: 30px 0;
+  border-bottom: 1px solid #eaeaea;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.task-preview:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-preview h2 {
+  font-size: 22px;
+  color: #6a0dad;
+  margin-bottom: 10px;
+}
+
+.task-preview a {
+  text-decoration: none;
+}
+
+/* Task details page styles */
+.task-details h2 {
+  font-size: 24px;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.task-details div {
+  margin: 30px 0;
+}
+
+.task-details button {
+  background: #6a0dad;
+  color: #fff;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Create new task form styles */
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.create label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create h2 {
+  font-size: 24px;
+  color: #6a0dad;
+  margin-bottom: 40px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.create button {
+  background: #6a0dad;
+  color: #fff;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.main-container {
+  width: 800px; /* Adjust as desired */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding around the bot */
+}
+
+
+.rsc-chatbot {
+  width: 100%; /* Expand to fill the container */
+}
+
+.rsc-chatbot-bubble-user,
+.rsc-chatbot-bubble-bot {
+  width: 70%; /* Adjust bubble width as needed */
+  max-width: 500px; /* Optional: Set a maximum width */
+}
+
+.rsc-chatbot-chat-window {
+  height: 400px; /* Adjust as needed */
+}
