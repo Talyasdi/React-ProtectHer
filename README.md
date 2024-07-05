@@ -43,6 +43,5 @@ This will launch the development server, and you can access the application in y
 ## Technologies Used
 
 - React
-- Node.js
 - React Router
 - OpenAI API (for Chatbot functionality)
