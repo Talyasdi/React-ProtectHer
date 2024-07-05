@@ -3,9 +3,7 @@ import { useNavigate } from "react-router-dom";
 import generateText from './HarassmentChecker';
 
 const Create = () => {
-  const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
-  const [author, setAuthor] = useState('mario');
   const [generatedText, setGeneratedText] = useState(''); // State to hold generated text
   const navigate = useNavigate();
 
